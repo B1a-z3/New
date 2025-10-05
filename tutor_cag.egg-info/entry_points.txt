@@ -1,0 +1,2 @@
+[console_scripts]
+tutor-cag = tutor_cag.cli:app
