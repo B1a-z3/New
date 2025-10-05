@@ -38,3 +38,18 @@ Key files:
 ```bash
 python -m pytest -q
 ```
+
+## Streamlit App
+
+Run locally:
+
+```bash
+python3 -m pip install -e .
+python3 -m pip install streamlit
+streamlit run streamlit_app.py
+```
+
+Deploy (examples):
+
+- Streamlit Community Cloud: push this repo and point it at `streamlit_app.py`.
+- Hugging Face Spaces (Streamlit): set the entry file to `streamlit_app.py`.
